@@ -13,7 +13,7 @@ Exercice :
 */
 
 
-void trouverMinMax(List<double> nombres) {
+void MinMax(List<double> nombres) {
   if (nombres.isEmpty) {
     print("La liste est vide.");
     return;
@@ -35,9 +35,7 @@ void trouverMinMax(List<double> nombres) {
 }
 
 void main() {
-  // Liste de nombres décimaux
   List<double> nombres = [12, 24, -5, 74];
 
-  // Appel de la fonction trouverMinMax
-  trouverMinMax(nombres);
+  MinMax(nombres);
 }
